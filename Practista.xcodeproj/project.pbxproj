@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BC990FD20BC55BB00E50E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC990FC20BC55BB00E50E44 /* AppDelegate.swift */; };
+		9BC990FF20BC55BB00E50E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC990FE20BC55BB00E50E44 /* ViewController.swift */; };
+		9BC9910220BC55BB00E50E44 /* Practista.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9910020BC55BB00E50E44 /* Practista.xcdatamodeld */; };
+		9BC9910420BC55BB00E50E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC9910320BC55BB00E50E44 /* Assets.xcassets */; };
+		9BC9910720BC55BB00E50E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC9910520BC55BB00E50E44 /* Main.storyboard */; };
+		9BC9911320BC55BB00E50E44 /* PractistaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9911220BC55BB00E50E44 /* PractistaTests.swift */; };
+		9BC9911E20BC55BB00E50E44 /* PractistaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9911D20BC55BB00E50E44 /* PractistaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BC9910F20BC55BB00E50E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC990F120BC55BB00E50E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC990F820BC55BB00E50E44;
+			remoteInfo = Practista;
+		};
+		9BC9911A20BC55BB00E50E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC990F120BC55BB00E50E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC990F820BC55BB00E50E44;
+			remoteInfo = Practista;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BC990F920BC55BB00E50E44 /* Practista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC990FC20BC55BB00E50E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BC990FE20BC55BB00E50E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BC9910120BC55BB00E50E44 /* Practista.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practista.xcdatamodel; sourceTree = "<group>"; };
+		9BC9910320BC55BB00E50E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BC9910620BC55BB00E50E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BC9910820BC55BB00E50E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC9910920BC55BB00E50E44 /* Practista.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Practista.entitlements; sourceTree = "<group>"; };
+		9BC9910E20BC55BB00E50E44 /* PractistaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PractistaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC9911220BC55BB00E50E44 /* PractistaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractistaTests.swift; sourceTree = "<group>"; };
+		9BC9911420BC55BB00E50E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC9911920BC55BB00E50E44 /* PractistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PractistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC9911D20BC55BB00E50E44 /* PractistaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractistaUITests.swift; sourceTree = "<group>"; };
+		9BC9911F20BC55BB00E50E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BC990F620BC55BB00E50E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC9910B20BC55BB00E50E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC9911620BC55BB00E50E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BC990F020BC55BB00E50E44 = {
+			isa = PBXGroup;
+			children = (
+				9BC990FB20BC55BB00E50E44 /* Practista */,
+				9BC9911120BC55BB00E50E44 /* PractistaTests */,
+				9BC9911C20BC55BB00E50E44 /* PractistaUITests */,
+				9BC990FA20BC55BB00E50E44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BC990FA20BC55BB00E50E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BC990F920BC55BB00E50E44 /* Practista.app */,
+				9BC9910E20BC55BB00E50E44 /* PractistaTests.xctest */,
+				9BC9911920BC55BB00E50E44 /* PractistaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BC990FB20BC55BB00E50E44 /* Practista */ = {
+			isa = PBXGroup;
+			children = (
+				9BC990FC20BC55BB00E50E44 /* AppDelegate.swift */,
+				9BC990FE20BC55BB00E50E44 /* ViewController.swift */,
+				9BC9910320BC55BB00E50E44 /* Assets.xcassets */,
+				9BC9910520BC55BB00E50E44 /* Main.storyboard */,
+				9BC9910820BC55BB00E50E44 /* Info.plist */,
+				9BC9910920BC55BB00E50E44 /* Practista.entitlements */,
+				9BC9910020BC55BB00E50E44 /* Practista.xcdatamodeld */,
+			);
+			path = Practista;
+			sourceTree = "<group>";
+		};
+		9BC9911120BC55BB00E50E44 /* PractistaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC9911220BC55BB00E50E44 /* PractistaTests.swift */,
+				9BC9911420BC55BB00E50E44 /* Info.plist */,
+			);
+			path = PractistaTests;
+			sourceTree = "<group>";
+		};
+		9BC9911C20BC55BB00E50E44 /* PractistaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC9911D20BC55BB00E50E44 /* PractistaUITests.swift */,
+				9BC9911F20BC55BB00E50E44 /* Info.plist */,
+			);
+			path = PractistaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BC990F820BC55BB00E50E44 /* Practista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC9912220BC55BB00E50E44 /* Build configuration list for PBXNativeTarget "Practista" */;
+			buildPhases = (
+				9BC990F520BC55BB00E50E44 /* Sources */,
+				9BC990F620BC55BB00E50E44 /* Frameworks */,
+				9BC990F720BC55BB00E50E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practista;
+			productName = Practista;
+			productReference = 9BC990F920BC55BB00E50E44 /* Practista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BC9910D20BC55BB00E50E44 /* PractistaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC9912520BC55BB00E50E44 /* Build configuration list for PBXNativeTarget "PractistaTests" */;
+			buildPhases = (
+				9BC9910A20BC55BB00E50E44 /* Sources */,
+				9BC9910B20BC55BB00E50E44 /* Frameworks */,
+				9BC9910C20BC55BB00E50E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC9911020BC55BB00E50E44 /* PBXTargetDependency */,
+			);
+			name = PractistaTests;
+			productName = PractistaTests;
+			productReference = 9BC9910E20BC55BB00E50E44 /* PractistaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BC9911820BC55BB00E50E44 /* PractistaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC9912820BC55BB00E50E44 /* Build configuration list for PBXNativeTarget "PractistaUITests" */;
+			buildPhases = (
+				9BC9911520BC55BB00E50E44 /* Sources */,
+				9BC9911620BC55BB00E50E44 /* Frameworks */,
+				9BC9911720BC55BB00E50E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC9911B20BC55BB00E50E44 /* PBXTargetDependency */,
+			);
+			name = PractistaUITests;
+			productName = PractistaUITests;
+			productReference = 9BC9911920BC55BB00E50E44 /* PractistaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BC990F120BC55BB00E50E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Madhusudhan B.R";
+				TargetAttributes = {
+					9BC990F820BC55BB00E50E44 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					9BC9910D20BC55BB00E50E44 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BC990F820BC55BB00E50E44;
+					};
+					9BC9911820BC55BB00E50E44 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BC990F820BC55BB00E50E44;
+					};
+				};
+			};
+			buildConfigurationList = 9BC990F420BC55BB00E50E44 /* Build configuration list for PBXProject "Practista" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BC990F020BC55BB00E50E44;
+			productRefGroup = 9BC990FA20BC55BB00E50E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BC990F820BC55BB00E50E44 /* Practista */,
+				9BC9910D20BC55BB00E50E44 /* PractistaTests */,
+				9BC9911820BC55BB00E50E44 /* PractistaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BC990F720BC55BB00E50E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC9910420BC55BB00E50E44 /* Assets.xcassets in Resources */,
+				9BC9910720BC55BB00E50E44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC9910C20BC55BB00E50E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC9911720BC55BB00E50E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BC990F520BC55BB00E50E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC990FF20BC55BB00E50E44 /* ViewController.swift in Sources */,
+				9BC990FD20BC55BB00E50E44 /* AppDelegate.swift in Sources */,
+				9BC9910220BC55BB00E50E44 /* Practista.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC9910A20BC55BB00E50E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC9911320BC55BB00E50E44 /* PractistaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC9911520BC55BB00E50E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC9911E20BC55BB00E50E44 /* PractistaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BC9911020BC55BB00E50E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BC990F820BC55BB00E50E44 /* Practista */;
+			targetProxy = 9BC9910F20BC55BB00E50E44 /* PBXContainerItemProxy */;
+		};
+		9BC9911B20BC55BB00E50E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BC990F820BC55BB00E50E44 /* Practista */;
+			targetProxy = 9BC9911A20BC55BB00E50E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BC9910520BC55BB00E50E44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BC9910620BC55BB00E50E44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BC9912020BC55BB00E50E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BC9912120BC55BB00E50E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		9BC9912320BC55BB00E50E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Practista/Practista.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LXKYY3Z6TA;
+				INFOPLIST_FILE = Practista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brmadhusudhan.Practista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9BC9912420BC55BB00E50E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Practista/Practista.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LXKYY3Z6TA;
+				INFOPLIST_FILE = Practista/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brmadhusudhan.Practista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		9BC9912620BC55BB00E50E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LXKYY3Z6TA;
+				INFOPLIST_FILE = PractistaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brmadhusudhan.PractistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practista.app/Contents/MacOS/Practista";
+			};
+			name = Debug;
+		};
+		9BC9912720BC55BB00E50E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LXKYY3Z6TA;
+				INFOPLIST_FILE = PractistaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brmadhusudhan.PractistaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practista.app/Contents/MacOS/Practista";
+			};
+			name = Release;
+		};
+		9BC9912920BC55BB00E50E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LXKYY3Z6TA;
+				INFOPLIST_FILE = PractistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brmadhusudhan.PractistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Practista;
+			};
+			name = Debug;
+		};
+		9BC9912A20BC55BB00E50E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LXKYY3Z6TA;
+				INFOPLIST_FILE = PractistaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brmadhusudhan.PractistaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Practista;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BC990F420BC55BB00E50E44 /* Build configuration list for PBXProject "Practista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC9912020BC55BB00E50E44 /* Debug */,
+				9BC9912120BC55BB00E50E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC9912220BC55BB00E50E44 /* Build configuration list for PBXNativeTarget "Practista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC9912320BC55BB00E50E44 /* Debug */,
+				9BC9912420BC55BB00E50E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC9912520BC55BB00E50E44 /* Build configuration list for PBXNativeTarget "PractistaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC9912620BC55BB00E50E44 /* Debug */,
+				9BC9912720BC55BB00E50E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC9912820BC55BB00E50E44 /* Build configuration list for PBXNativeTarget "PractistaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC9912920BC55BB00E50E44 /* Debug */,
+				9BC9912A20BC55BB00E50E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BC9910020BC55BB00E50E44 /* Practista.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BC9910120BC55BB00E50E44 /* Practista.xcdatamodel */,
+			);
+			currentVersion = 9BC9910120BC55BB00E50E44 /* Practista.xcdatamodel */;
+			path = Practista.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BC990F120BC55BB00E50E44 /* Project object */;
+}
