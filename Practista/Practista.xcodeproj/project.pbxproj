@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09B18084C8F9EF9D09D3A935 /* Pods_Practista.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5135E28B7CDB2A57727E687 /* Pods_Practista.framework */; };
+		570B1B4CBDB98BD22433AB18 /* Pods_PractistaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D8D241CF0A6AD9C1EE1AB4 /* Pods_PractistaTests.framework */; };
+		632E6BE1D11D686D67948B23 /* Pods_PractistaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B7E40A5367B1F0658778ED /* Pods_PractistaUITests.framework */; };
 		9BC9913820BC572B00E50E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9913720BC572B00E50E44 /* AppDelegate.swift */; };
 		9BC9913A20BC572B00E50E44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9913920BC572B00E50E44 /* ViewController.swift */; };
 		9BC9913D20BC572B00E50E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC9913B20BC572B00E50E44 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		9BC9914520BC572B00E50E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC9914320BC572B00E50E44 /* LaunchScreen.storyboard */; };
 		9BC9915020BC572B00E50E44 /* PractistaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9914F20BC572B00E50E44 /* PractistaTests.swift */; };
 		9BC9915B20BC572B00E50E44 /* PractistaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9915A20BC572B00E50E44 /* PractistaUITests.swift */; };
+		9BC9916A20BC686600E50E44 /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC9916920BC686600E50E44 /* extentions.swift */; };
+		9BC9916C20BC704E00E50E44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BC9916B20BC704D00E50E44 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BFF43FB7AC6628B17AADC8 /* Pods-PractistaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractistaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PractistaTests/Pods-PractistaTests.release.xcconfig"; sourceTree = "<group>"; };
+		21FE03C32A8E2EA2E8EAB9CB /* Pods-PractistaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractistaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PractistaTests/Pods-PractistaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26B10FF8302F4A3E2AD19786 /* Pods-PractistaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractistaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PractistaUITests/Pods-PractistaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36EF1938AA74F1627B1F8655 /* Pods-Practista.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practista.release.xcconfig"; path = "Pods/Target Support Files/Pods-Practista/Pods-Practista.release.xcconfig"; sourceTree = "<group>"; };
+		62D8D241CF0A6AD9C1EE1AB4 /* Pods_PractistaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractistaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66854DD68C52B84104B60706 /* Pods-PractistaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PractistaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PractistaUITests/Pods-PractistaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9BC9913420BC572B00E50E44 /* Practista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practista.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC9913720BC572B00E50E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BC9913920BC572B00E50E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		9BC9915620BC572B00E50E44 /* PractistaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PractistaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC9915A20BC572B00E50E44 /* PractistaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractistaUITests.swift; sourceTree = "<group>"; };
 		9BC9915C20BC572B00E50E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC9916920BC686600E50E44 /* extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentions.swift; sourceTree = "<group>"; };
+		9BC9916B20BC704D00E50E44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A6B7E40A5367B1F0658778ED /* Pods_PractistaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PractistaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC0927376E41E880E748A19 /* Pods-Practista.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practista.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Practista/Pods-Practista.debug.xcconfig"; sourceTree = "<group>"; };
+		E5135E28B7CDB2A57727E687 /* Pods_Practista.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practista.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B18084C8F9EF9D09D3A935 /* Pods_Practista.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570B1B4CBDB98BD22433AB18 /* Pods_PractistaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632E6BE1D11D686D67948B23 /* Pods_PractistaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				9BC9914E20BC572B00E50E44 /* PractistaTests */,
 				9BC9915920BC572B00E50E44 /* PractistaUITests */,
 				9BC9913520BC572B00E50E44 /* Products */,
+				C366B08487CC0A04228EA61D /* Pods */,
+				B48EB2A92721FA2382EEF6EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +120,14 @@
 		9BC9913620BC572B00E50E44 /* Practista */ = {
 			isa = PBXGroup;
 			children = (
+				9BC9916820BC684200E50E44 /* Utils */,
 				9BC9913720BC572B00E50E44 /* AppDelegate.swift */,
 				9BC9913920BC572B00E50E44 /* ViewController.swift */,
 				9BC9913B20BC572B00E50E44 /* Main.storyboard */,
 				9BC9914120BC572B00E50E44 /* Assets.xcassets */,
 				9BC9914320BC572B00E50E44 /* LaunchScreen.storyboard */,
 				9BC9914620BC572B00E50E44 /* Info.plist */,
+				9BC9916B20BC704D00E50E44 /* GoogleService-Info.plist */,
 				9BC9913E20BC572B00E50E44 /* Practista.xcdatamodeld */,
 			);
 			path = Practista;
@@ -128,6 +151,37 @@
 			path = PractistaUITests;
 			sourceTree = "<group>";
 		};
+		9BC9916820BC684200E50E44 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BC9916920BC686600E50E44 /* extentions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B48EB2A92721FA2382EEF6EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5135E28B7CDB2A57727E687 /* Pods_Practista.framework */,
+				62D8D241CF0A6AD9C1EE1AB4 /* Pods_PractistaTests.framework */,
+				A6B7E40A5367B1F0658778ED /* Pods_PractistaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C366B08487CC0A04228EA61D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCC0927376E41E880E748A19 /* Pods-Practista.debug.xcconfig */,
+				36EF1938AA74F1627B1F8655 /* Pods-Practista.release.xcconfig */,
+				21FE03C32A8E2EA2E8EAB9CB /* Pods-PractistaTests.debug.xcconfig */,
+				04BFF43FB7AC6628B17AADC8 /* Pods-PractistaTests.release.xcconfig */,
+				26B10FF8302F4A3E2AD19786 /* Pods-PractistaUITests.debug.xcconfig */,
+				66854DD68C52B84104B60706 /* Pods-PractistaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BC9915F20BC572B00E50E44 /* Build configuration list for PBXNativeTarget "Practista" */;
 			buildPhases = (
+				34E343DFD54705122095C7DC /* [CP] Check Pods Manifest.lock */,
 				9BC9913020BC572B00E50E44 /* Sources */,
 				9BC9913120BC572B00E50E44 /* Frameworks */,
 				9BC9913220BC572B00E50E44 /* Resources */,
+				311AF412004C5294D21A8322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BC9916220BC572B00E50E44 /* Build configuration list for PBXNativeTarget "PractistaTests" */;
 			buildPhases = (
+				91B4FBEBF54E2935A5D2F5C3 /* [CP] Check Pods Manifest.lock */,
 				9BC9914720BC572B00E50E44 /* Sources */,
 				9BC9914820BC572B00E50E44 /* Frameworks */,
 				9BC9914920BC572B00E50E44 /* Resources */,
@@ -170,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BC9916520BC572B00E50E44 /* Build configuration list for PBXNativeTarget "PractistaUITests" */;
 			buildPhases = (
+				6454602BD65B25F5BC6161B1 /* [CP] Check Pods Manifest.lock */,
 				9BC9915220BC572B00E50E44 /* Sources */,
 				9BC9915320BC572B00E50E44 /* Frameworks */,
 				9BC9915420BC572B00E50E44 /* Resources */,
@@ -236,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BC9914520BC572B00E50E44 /* LaunchScreen.storyboard in Resources */,
+				9BC9916C20BC704E00E50E44 /* GoogleService-Info.plist in Resources */,
 				9BC9914220BC572B00E50E44 /* Assets.xcassets in Resources */,
 				9BC9913D20BC572B00E50E44 /* Main.storyboard in Resources */,
 			);
@@ -257,11 +316,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		311AF412004C5294D21A8322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Practista/Pods-Practista-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Practista/Pods-Practista-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E343DFD54705122095C7DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Practista-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6454602BD65B25F5BC6161B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PractistaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91B4FBEBF54E2935A5D2F5C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PractistaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BC9913020BC572B00E50E44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC9916A20BC686600E50E44 /* extentions.swift in Sources */,
 				9BC9913A20BC572B00E50E44 /* ViewController.swift in Sources */,
 				9BC9913820BC572B00E50E44 /* AppDelegate.swift in Sources */,
 				9BC9914020BC572B00E50E44 /* Practista.xcdatamodeld in Sources */,
@@ -428,6 +569,7 @@
 		};
 		9BC9916020BC572B00E50E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC0927376E41E880E748A19 /* Pods-Practista.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +585,7 @@
 		};
 		9BC9916120BC572B00E50E44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36EF1938AA74F1627B1F8655 /* Pods-Practista.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +601,7 @@
 		};
 		9BC9916320BC572B00E50E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21FE03C32A8E2EA2E8EAB9CB /* Pods-PractistaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +619,7 @@
 		};
 		9BC9916420BC572B00E50E44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BFF43FB7AC6628B17AADC8 /* Pods-PractistaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +637,7 @@
 		};
 		9BC9916620BC572B00E50E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B10FF8302F4A3E2AD19786 /* Pods-PractistaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +654,7 @@
 		};
 		9BC9916720BC572B00E50E44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66854DD68C52B84104B60706 /* Pods-PractistaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

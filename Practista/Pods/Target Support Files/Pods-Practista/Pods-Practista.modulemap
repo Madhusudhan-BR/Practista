@@ -1,0 +1,6 @@
+framework module Pods_Practista {
+  umbrella header "Pods-Practista-umbrella.h"
+
+  export *
+  module * { export * }
+}

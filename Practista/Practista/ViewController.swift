@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -56,11 +57,46 @@ class ViewController: UIViewController {
         b.backgroundColor = UIColor(red: 149/255, green: 204/255, blue: 247/255, alpha: 1)
         b.translatesAutoresizingMaskIntoConstraints = false
         b.setTitleColor(.white, for: .normal)
+        
+        
+        b.addTarget(self, action: #selector(handleSignUp), for: .touchUpInside)
+        
         return b
         
         
         
     }()
+    
+     @objc fileprivate func handleSignUp() {
+        
+        
+        
+        print("\n \n ********** Garbage values printed  ************ \n \n")
+        
+        guard let email = emailTextField.text, email.characters.count > 0 else {
+            return
+        }
+        
+        guard let pass = passwordTextField.text, pass.characters.count > 0 else {
+            return;
+        }
+        
+        guard let username = usernameTextField.text, username.characters.count > 0 else {
+            return;
+        }
+      
+        
+        Auth.auth().createUser(withEmail: email, password: pass) { (result, error) in
+            if let error = error {
+                print(error)
+                return;
+            }
+            
+            
+        }
+        
+        
+    }
     
     
     override func viewDidLoad() {
